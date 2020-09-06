@@ -1,4 +1,4 @@
-El archivo actual no fue creado con comandos. Se creó en la interfaz de Windows y después fue movido al directorio del repositorio
+#El archivo actual no fue creado con comandos. Se creó en la interfaz de Windows y después fue movido al directorio del repositorio
 
 cd Desktop/tarea4_final
 git init
@@ -41,15 +41,20 @@ git push
 git status
 cd ..
 mv tarea4_comandos.txt tarea4_final
+cd tarea4_final
 git add tarea4_comandos.txt
 git commit -m 'tarea4.2.4'
 git push
 nano tarea4_comandos.txt
-#los siguientes comandos se ejecutaron después de la última edición de tarea4_comandos.txt
 git add tarea4_comandos.txt
 git commit -m 'tarea4.2.5'
 git push
 git status
-
+nano tarea4_comandos.txt
+#Los siguientes comandos fueron ejecutados después de la última edición de tarea4_comandos.txt
+git add tarea4_comandos.txt
+git commit -m 'tarea4.3'
+git push
+git status
 
 
