@@ -1,0 +1,45 @@
+cd Desktop/tarea4_final
+git init
+touch opera.py
+git status
+git add opera.py
+git status
+git commit -m 'tarea4.1.1'
+git status
+git remote add origin https://github.com/sunset61/tarea4_final
+git push --set-upstream origin master
+git status
+nano opera.py
+git status
+git add opera.py
+git commit -m 'tarea4.1.2'
+git push
+git status
+nano opera.py
+git status
+git add opera.py
+git status
+git commit -m 'tarea4.1.3'
+git status
+git push
+git status
+python opera.py
+touch notas.py
+nano notas.py
+python notas.py
+git add notas.py
+git commit -m 'tarea4.2.1'
+git push
+git status
+nano notas.py
+python notas.py
+git add notas.py
+git commit -m 'tarea4.2.3'
+git push
+git status
+cd ..
+mv tarea4_comandos.txt tarea4_final
+
+
+
+
